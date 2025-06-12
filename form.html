@@ -1,49 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-        <h1>Forms in html</h1>
-        <form >
-            <label>First name :</label>
+  </head>
+  <body>
+    <h1>Forms in html</h1>
+    <form>
+      <label>First name :</label>
+      <input type="type" placeholder="first name" />
+      <br /><br />
+      <label>Last name : </label>
 
-            <input 
-                type = "type"
-                placeholder="first name"
-            >
-            <br><br>
-            <label>Last name : </label>
+      <input type="text" placeholder="last name" />
+      <br />
+      <br />
+      <label>gender : </label>
 
-            <input 
-                type="text" placeholder="last name"
-            >
-            <br>
-            <br>
-            <label>gender : </label>
+      <select name="gender" id="gender">
+        <option value="male">male</option>
+        <option value="female">female</option>
+        <option value="non binary">non binary</option>
+      </select>
+      <br /><br />
+      <label>age : </label>
 
-            <select name="gender" id="gender">
-                <option value="male">male</option>
-                <option value="female">female</option>
-                <option value="non binary">non binary</option>
-            </select>
-            <br><br>
-            <label>age : </label>
-
-            <input type="number" placeholder="age">
-            <br><br>
-            <label>Email</label>
-            <input type="email" placeholder="you@example.com">
-            <br><br>
-            <label>Password</label>
-            <input type="password">
-            <br><br>
-            <button type="submit" >
-                    Submit
-            </button>
-        </form>
-
-</body>
+      <input type="number" placeholder="age" />
+      <br /><br />
+      <label>Email</label>
+      <input type="email" placeholder="you@example.com" />
+      <br /><br />
+      <label>Password</label>
+      <input type="password" />
+      <br /><br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
 </html>
